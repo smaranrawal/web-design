@@ -1,0 +1,115 @@
+*{
+
+    margin: 0;
+    padding: 0;;
+    text-align: center;
+    }
+    
+    h1{
+        
+        color: rgb(23, 228, 235);
+        font-size: 60px;
+        text-decoration-line: underline overline;
+        background:rgb(81, 83, 81);
+    
+        font-style: inherit;
+    
+    }
+    h2{
+        text-decoration-color:rgb(237, 239, 241);
+            color: rgb(62, 63, 63);
+            text-decoration-line: underline overline;
+        font-size: 40px;
+        background:rgb(173, 188, 240);
+        font-style: oblique;
+    }
+    h3{
+    color: rgb(71, 104, 101);
+    font-size: 30px;
+    background:rgb(108, 149, 236);
+    font-style: oblique;
+    text-decoration-line:  underline;
+    text-decoration-color:rgb(237, 239, 241);
+    
+    }
+    #first-paragraph{
+    
+        color: rgb(121, 102, 79);
+        font-size: 22px;
+        /* background:rgb(126, 101, 111); */
+    }
+    #second-paragraph{
+        color: rgb(121, 102, 79);
+        font-size: 22px;
+        /* background:rgb(126, 101, 111); */
+    }
+    .my-own-class{
+    
+        color: rgb(121, 102, 79);
+        font-size: 22px;
+        /* background:rgb(126, 101, 111); */
+    }
+    .box{
+        width: 300px;
+        height: 300px;
+        background:purple;
+        /* margin: 20px 30px; */
+        /* top: 20px; */
+        
+       /* bottom: 20px; */
+        /* right: 20px; */
+        /* left: 20px; */
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+        margin-right: 15px;
+        border: black dotted 5px;
+    }
+    
+     .box1{
+
+
+     }
+     .box2{
+        margin-left: 10px;
+        background: green;
+        margin-top: -70px;
+        border-color: rgb(94, 26, 243);
+
+     }
+     .box3
+     {       
+        color: bisque;
+        font-size: 100px;
+        margin-left: 70px;
+        background:black;
+        margin-top: -110px;
+        border: white dotted 5px;
+        border-color: aqua;
+        
+     }
+    p{
+    
+        /* background:rgb(126, 101, 111); */
+        color :orange;
+        font: size 30px;
+        font-weight:bold;
+        font-style:italic;
+    }
+    li{
+    
+        color:rgb(168, 90, 103);
+        font-size: 25px;
+        font-style: italic;
+        font-weight:bold;
+        background:rgb(212, 221, 212);
+    }
+.ncell{
+
+    margin-top: -400px;
+    margin-left: 370px;
+    width: 100%;
+    /* height: 40px; */
+    border-radius:0px 30px 0px 30px ;
+    
+}

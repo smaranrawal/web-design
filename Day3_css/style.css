@@ -1,0 +1,65 @@
+       
+       *{
+        margin: 0;
+        padding:0;
+        text-align: center;
+
+       }
+       h1,h2,h3,h4,h5,h6,p,o,ol,li,img,a,table{
+            margin:0;
+            padding:0;
+
+        }
+        h1{
+            font-size:60px;
+
+        }
+        p{
+
+            color :orange;
+            font-size:30px;
+            font-weight:bold;
+            font-style:italic;
+        }
+
+        #first-paragraph{
+            color : green;
+            background:rgb(133, 104, 116);
+        }
+         #second-paragraph{
+            color : blue;
+            /* text-decoration-line: line-through; */
+            text-decoration-color: aqua;
+        } 
+
+        .my-own-class{
+            color : red;
+            font-size:30px;
+            font-style:italic;
+            text-decoration-line: underline overline;
+            text-decoration-color:lightgreen;
+        }
+        h1{
+
+            background:lightgreen;
+            text-decoration-line:overline underline;
+        }
+        .box1{
+
+            width: 400px;
+            height: 400px;
+            /* background-image: linear-gradient(lightblue,pink); */
+            text-align:center;
+            background: url('../beer.png');
+
+            
+        }
+        h5{
+            color:red;
+        }
+        .box1 h5{
+            color:red;
+        }
+        h3{
+            color: brown;
+        }
