@@ -1,0 +1,6 @@
+block element 
+`~default element:100%
+~block other elements
+
+
+Inline/

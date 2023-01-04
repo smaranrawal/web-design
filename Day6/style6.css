@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+ background-color: white;
+}
+.click-me a{
+    display: inline-block;
+    background: rgb(157, 157, 93);
+    text-decoration: none;
+    color: white;
+    border: 3px solid black;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: all linear 0.3s;
+    font-size: 5px;
+    
+}
+.click-me a:hover{
+    
+    background: black;
+    border-color:rgb(32, 179, 209);
+    color: rgb(216, 251, 61);
+    border-radius: 0;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px 5px rgb(51, 2, 2);
+    
+}
+.card-box{
+
+
+    width: 400px;
+    background: rgb(175, 64, 64);
+    margin-top: 200px;
+    
+}
+.card-box .card-image img
+{
+    width: 100%;
+}

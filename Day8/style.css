@@ -1,0 +1,89 @@
+*{
+
+margin: 0;
+padding: 0;
+
+
+}
+
+.student{
+
+    background: black;
+    min-height: 500px;
+}
+
+.student .container{
+    
+    width: 1170px;
+    margin: 0 auto;
+    width: 1170px;
+
+}
+.student .student_title{
+
+
+    color: rgb(202, 195, 195);
+    font-size: 24px;
+}
+
+.student .student_title h4{
+    text-align: center;
+    color: red;
+}
+
+
+.student .student_title h2{
+    text-align: center;
+
+}
+.student_detail{
+    
+    background: rgb(244, 240, 240);
+    border-radius: 15px;
+    padding: 15px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 10px;
+
+}
+.student_image{
+
+width:100% ;
+position: relative;
+
+overflow: hidden;
+
+}
+.student_image img{
+    
+    
+    width: 100%;
+    transition: all linear 0.3s;
+    border-radius: 15px;
+}
+.student_detail img{
+    width:100%;
+}
+
+.student_detail h4{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    
+}
+.student_detail span{
+    display: block;
+    color: brown;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.student_detail:hover img{
+    
+    
+    transform: scale(1.2);
+    
+}
+.student_list{
+
+    display: flex;
+}
